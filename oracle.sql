@@ -10,6 +10,7 @@ CREATE TABLE TC_CRUZES_Banner (
   	Id VARCHAR2(40) PRIMARY KEY NOT NULL, 
 	Title VARCHAR2(255), 
 	Description VARCHAR2(4000),
+	Upload_file VARCHAR(255),
 	Banner_index VARCHAR(255),
 	Administrative_name VARCHAR(255)
 );
