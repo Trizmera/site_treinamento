@@ -23,7 +23,7 @@ CREATE TABLE CTD_Form (
 	Email VARCHAR2(255),
 	Phone VARCHAR2(255), 
 	Text VARCHAR2(4000), 
-	Btn_send VARCHAR2(255),
+	Btn_text VARCHAR2(255),
     	Btn_link VARCHAR2(255)
 );
 
