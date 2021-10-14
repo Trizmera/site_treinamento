@@ -10,7 +10,7 @@ CREATE TABLE CTD_Banner (
 	Description VARCHAR2(4000)
 );
 
-CREATE TABLE CTD_Destaques (
+CREATE TABLE CTD_Cards (
   	Id VARCHAR2(40) PRIMARY KEY NOT NULL, 
 	Title VARCHAR2(255),  
 	Description VARCHAR2(4000),
@@ -24,7 +24,7 @@ CREATE TABLE CTD_Form (
 	Phone VARCHAR2(255), 
 	Text VARCHAR2(4000), 
 	Btn_send VARCHAR2(255),
-    Btn_link VARCHAR2(255)
+    	Btn_link VARCHAR2(255)
 );
 
 CREATE TABLE CTD_Map (
@@ -32,12 +32,12 @@ CREATE TABLE CTD_Map (
 	Map VARCHAR2(255)  
 );
 
-CREATE TABLE CTD_Galeria (
+CREATE TABLE CTD_Galery (
   	Id VARCHAR2(40) PRIMARY KEY NOT NULL, 
 	Image VARCHAR2(255),
-    Description VARCHAR2(4000), 
-    Image_url VARCHAR2(255),
-    Image_index NUMBER(*,0) 
+    	Description VARCHAR2(4000), 
+    	Image_url VARCHAR2(255),
+    	Image_index NUMBER(*,0) 
 );
 
 CREATE TABLE CTD_Footer (
