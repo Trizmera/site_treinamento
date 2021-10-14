@@ -1,0 +1,27 @@
+Links para a página do slider utilizado:
+http://bxslider.com
+
+Head
+<!-- SLIDER -->
+<!-- jQuery library (served from Google) -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="bxslider/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
+
+
+no slider
+<ul class="bxslider">
+	  <li><a href="galeria.html" title="galeria de trabalhos "><img src="imagens/destaque.jpg" alt="destaque"></a></li>
+		<li><a href="contato.html" title="contato"><img src="imagens/slider-2.jpg"></a></li>
+		<li><a href="#" title=" "><img src="imagens/slider-3.jpg"></a></li>
+	</ul>
+
+
+antes do </body>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>

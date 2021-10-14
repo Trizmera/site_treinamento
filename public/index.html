@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Site Treinamento</title>
+	<link href="estilo.css" rel="stylesheet" />
+	<!--tag meta-->
+	<meta name="Description" content="descrição detalhada da página com até 160 caracteres.">
+		  
+    <meta name="Keywords" content="recomendado, até, quatro, palavras.">
+		  
+		  <!--tag que tira o zoom do celular-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script src="lightbox/js/jquery-1.11.0.min.js"></script>
+	
+	<link rel="stylesheet" href="lightbox/css/lightbox.css">
+	
+	<script src="lightbox/js/lightbox.min.js"></script>
+	
+	<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+	
+</head>
+
+<body>
+	<!-- Módulo opções do Menu -->
+	<div class="navbar">
+		<nav>
+			<ul>
+				<li><a href="index.html" title="página inicial">Home</a></li>
+				<li><a href="#destaque">Destaques</a></li>
+				<li><a href="#galeria" title="galeria">Galeria</a></li>
+				<li><a href="#contato" title="fale conosco">Contato</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<!-- FIM Módulo opções do Menu -->
+
+	<!-- Módulo slider de banners -->
+	<div class="banner" id="banner">
+		<p><img src="imagens/destaque.jpg" alt="Banner da home"></p> 
+	</div>
+	<!-- FIM Módulo slider de banner-->
+	
+	<!-- Módulo Destaques -->
+<div class="destaque" id="destaque">
+	<article class="col">
+		<!-- Destaque 1 -->
+		<h1> Destaque 1</h1>
+		<p><img src="imagens/destaque-1.jpg" alt="destaque 1"></p>
+		<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+		<!-- FIM Destaque 1 -->
+	</article>
+	<article class="col">
+		<!-- Destaque 2 -->
+		<h1> Destaque 2</h1>
+		<p><img src="imagens/destaque-2.jpg" alt="destaque 2"></p>
+		<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+		<!-- FIM Destaque 2 -->
+	</article>
+		<!-- Destaque 3 -->
+		<article class="collast">
+		<h1> Destaque 3</h1>
+		<p><img src="imagens/destaque-3.jpg" alt="destaque 3"></p>
+		<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+		<!-- FIM Destaque 3 -->
+	</article>
+</div>
+	<!-- FIM  Módulo Destaques -->
+
+<div class="galeria">
+	<!--TITULO-->
+		<h1>Galeria de Trabalhos</h1>
+	<!--INICIO GALERIA-->
+	<div id="galeria">
+		<p>Veja nossos trabalhos.</p>
+	<p>
+		<a href="imagens/site1.jpg" data-lightbox="galeria" data-title="descrição 1" alt="site-1"><img src="imagens/site1-m.jpg" alt="site1"></a>
+		
+		<a href="imagens/site2.jpg" data-lightbox="galeria" data-title="descrição 2" alt="site-2"><img src="imagens/site2-m.jpg" alt="site2"></a>
+		
+		<a href="imagens/site3.jpg" data-lightbox="galeria" data-title="descrição 3" alt="site-3"><img src="imagens/site3-m.jpg" alt="site3"></a>
+		
+		<a href="imagens/site4.jpg" data-lightbox="galeria" data-title="descrição 4" alt="site-4"><img src="imagens/site4-m.jpg" alt="site4"></a>
+		
+		<a href="imagens/site5.jpg" data-lightbox="galeria" data-title="descrição 5" alt="site-5"><img src="imagens/site5-m.jpg" alt="site5"></a>
+		
+		<a href="imagens/site6.jpg" data-lightbox="galeria" data-title="descrição 6" alt="site-6"><img src="imagens/site6-m.jpg" alt="site6"></a>
+		
+		<a href="imagens/site7.jpg" data-lightbox="galeria" data-title="descrição 7" alt="site-7"><img src="imagens/site7-m.jpg" alt="site7"></a>
+		
+		<a href="imagens/site8.jpg" data-lightbox="galeria" data-title="descrição 8" alt="site-8"><img src="imagens/site8-m.jpg" alt="site8"></a>
+	</p>
+		<!--FIM GALERIA-->
+	</div>
+</div>	
+
+	<!--Titulo-->
+	<div id="contato">
+		<h1>Entre em Contato</h1>
+		<p>
+			Entre em contato conosco através do telefone: 11 2345-6789, <strong> Whatsapp: 11 98765-4321</strong> ou preenchendo o formulário abaixo. 
+			Nossa equipe está pronta para lhe atender.
+        </p>
+	<!--Fim do Titulo-->
+
+		<!--INICIO FORMULARIO-->
+		<div id="form">
+			<form action="envia.php" method="post" id="form-contato">
+				<p>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required placeholder="Nome completo"><span> </span>
+				</p>
+				
+				<p>
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" placeholder="Email" required><span> </span>
+				</p>
+				
+				<p>
+				<label for="fone">Telefone:</label>
+				<input type="tel" name="telefone" id="telefone" placeholder="DDD + Fone"><span> </span>
+				</p>
+				
+				<p>
+				<label for="msg">Mensagem:</label>
+				<textarea name="msg" id="msg" placeholder="Dúvidas, críticas e sugestões."></textarea><span> </span>
+			</p>
+				
+				<p>
+				<input type="submit" id="enviar" name="enviar" value="Enviar">
+				
+			    </p>
+			</form>
+			<!--FIM FORMULARIO-->
+			
+		</div>
+		<!--INICIO MAPA-->
+		<div id="mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.170100442371!2d-46.54277174911736!3d-23.526383666112306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e45de223d91%3A0xc001e09aee26a54f!2sR.+Francisco+Coimbra%2C+429+-+Penha%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1495426638337" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<!--FIM MAPA-->
+	
+	<!-- rodapé -->
+	<footer>
+		<p>
+			Site Treinamento 2021
+		</p>
+	</footer>
+	<!-- FIM rodapé -->
+	
+</body>
+
+</html>
