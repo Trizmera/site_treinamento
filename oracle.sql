@@ -24,7 +24,7 @@ CREATE TABLE CTD_Form (
 	Phone VARCHAR2(255), 
 	Text VARCHAR2(4000), 
 	Btn_text VARCHAR2(255),
-    	Btn_link VARCHAR2(255)
+    	Btn_url VARCHAR2(255)
 );
 
 CREATE TABLE CTD_Map (
